@@ -1,0 +1,8 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main{
+    padding: 2.5rem;
+    max-width: 1440px;
+}
