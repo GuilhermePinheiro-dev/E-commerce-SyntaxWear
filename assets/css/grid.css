@@ -1,0 +1,64 @@
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas: "featured featured primary primary"
+                         "featured featured model secondary-top"
+                         "highlight highlight model secondary-bottom";
+    gap: 30px;
+    padding-top: 40px;
+}
+.grid-item{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.featured{
+    grid-area: featured;
+    background-image: url(../images/grid-images/feature-bg.png);
+    position: relative;
+}
+.highlight{
+    grid-area: highlight;
+    background-image: url(../images/grid-images/tenis-preto-azul.png);
+}
+.primary{
+    grid-area: primary;
+    background-image: url(../images/grid-images/tenis-roxo-verde.png);
+}
+.model{
+    grid-area: model;
+    background-image: url(../images/grid-images/model.png);
+}
+.secondary-top{
+    grid-area: secondary-top;
+    background-image: url(../images/grid-images/tenis-colorido.png);
+}
+.secondary-bottom{
+    grid-area: secondary-bottom;
+    background-image: url(../images/grid-images/tenis-branco.png);
+}
+.grid-content{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #EDEDED;
+    text-align: center;
+    width: 340px;
+}
+.grid-content span{
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+}
+.grid-content h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.buttons{
+    margin-top: 20px;
+    gap: 10px;
+}
