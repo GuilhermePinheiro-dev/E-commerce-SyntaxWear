@@ -1,0 +1,94 @@
+footer {
+    background-color: #333333;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.contact-section span {
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+}
+
+.contact-section input {
+    background-color: #fff;
+    color: #333333;
+    width: 344px;
+    height: 44px;
+    border-radius: 30px;
+    padding: 12px 20px;
+    margin-bottom: 52px;
+}
+
+.contact-section label {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.contact-section ul {
+    gap: 20px;
+}
+
+.contact-section ul li {
+    width: 32px;
+    height: 32px;
+    transition: opacity 0.3s ease;
+}
+
+.contact-section ul li:hover {
+    opacity: 0.7;
+}
+
+ul {
+    display: flex;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: text-decoration 0.3s ease;
+}
+
+.types li:hover a {
+    text-decoration: underline;
+}
+
+.list-title {
+    color: #EDEDED;
+}
+
+.list-main {
+    gap: 40px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer-bottom span{
+    padding: 20px 0;
+}
+.footer-bottom hr {
+    width: 90%;
+    background-color: #fff;
+    height: 2px;
+    
+}
