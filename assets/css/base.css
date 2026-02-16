@@ -36,3 +36,8 @@ main {
     border: 2px solid #6329A2;
     color: #fff;
 }
+@media screen and (max-width: 1000px){
+    main{
+        padding: 0.625rem;
+    }
+}
