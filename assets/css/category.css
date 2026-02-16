@@ -48,12 +48,16 @@
     text-align: center;
     z-index: 2;
 }
-@media screen and (max-width: 1000px){
+/* @media screen and (max-width: 1000px){
+    .category-types{
+        
+        flex: 1;
+    }
+} */
+@media screen and (max-width: 780px){
     .category-types{
         flex-wrap: wrap;
     }
-}
-@media screen and (max-width: 700px){
     .card{
         width: 100%;
     }

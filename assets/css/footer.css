@@ -6,7 +6,7 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    padding: 40px 80px;
+    padding: 2.5rem 5rem;
 }
 
 .contact-section {
@@ -76,31 +76,47 @@ ul {
     font-size: 1.25rem;
     font-weight: 400;
 }
-.footer-bottom{
+
+.footer-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
-.footer-bottom span{
+
+.footer-bottom span {
     padding: 20px 0;
     font-size: 1.25rem;
 
 }
+
 .footer-bottom hr {
     width: 90%;
     background-color: #fff;
     height: 2px;
-    
+
 }
 
-@media screen and (max-width: 700px){
-    .footer-container, ul {
+@media screen and (max-width: 995px) {
+
+    .footer-container,
+    ul {
         flex-direction: column;
     }
-    .contact-section ul{
+
+    .contact-section ul {
         flex-direction: row;
         margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .footer-container {
+        padding: 1.25rem 2.5rem;
+    }
+
+    .contact-section input {
+        max-width: 265px;
     }
 }
