@@ -85,10 +85,22 @@ ul {
 }
 .footer-bottom span{
     padding: 20px 0;
+    font-size: 1.25rem;
+
 }
 .footer-bottom hr {
     width: 90%;
     background-color: #fff;
     height: 2px;
     
+}
+
+@media screen and (max-width: 700px){
+    .footer-container, ul {
+        flex-direction: column;
+    }
+    .contact-section ul{
+        flex-direction: row;
+        margin-bottom: 80px;
+    }
 }
