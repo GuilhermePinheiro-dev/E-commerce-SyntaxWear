@@ -62,3 +62,16 @@
     margin-top: 20px;
     gap: 10px;
 }
+
+@media screen and (max-width: 700px){
+    .grid-section{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 300px);
+        grid-template-areas: "featured featured"
+                             "featured featured"
+                             "highlight highlight"
+                             "model secondary-top"
+                             "model secondary-bottom"
+                             "primary primary";
+    }
+}
