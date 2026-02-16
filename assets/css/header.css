@@ -92,7 +92,9 @@
         z-index: 1000;
         transition: .3s ease;
     }
-
+    .nav-center{
+        margin-left: 0;
+    }
     .nav-center,
     .nav-right {
         width: 100%;
